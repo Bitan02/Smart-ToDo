@@ -135,7 +135,7 @@ POST /api/auth/login
 Content-Type: application/json
 
 {
-  "email": "john@example.com",
+  "email": "john@gmail.com",
   "password": "password123"
 }
 ```
@@ -358,4 +358,5 @@ ISC
 ## Author
 
 Smart ToDo API Team
+
 
