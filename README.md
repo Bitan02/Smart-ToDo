@@ -156,9 +156,6 @@ Content-Type: application/json
 ### Task Endpoints
 
 All task endpoints require authentication. Include the JWT token in the Authorization header:
-```http
-Authorization: Bearer <your-jwt-token>
-```
 
 #### Create a Task
 ```http
@@ -341,11 +338,6 @@ smart-ToDo-app/
 
 ## MongoDB Connection
 
-### Local MongoDB
-```env
-MONGODB_URI=mongodb://localhost:27017/smart-todo
-```
-
 ### MongoDB
 ```env
 MONGODB_URI=mongodb://localhost:27017/%20Notes/smart-todo
@@ -358,5 +350,6 @@ ISC
 ## Author
 
 Smart ToDo API Team
+
 
 
