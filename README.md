@@ -166,7 +166,7 @@ Content-Type: application/json
 {
   "title": "Complete project",
   "description": "Finish the Smart ToDo API project",
-  "completed": false
+  "completed": true
 }
 ```
 
@@ -350,6 +350,7 @@ ISC
 ## Author
 
 Smart ToDo API Team
+
 
 
 
