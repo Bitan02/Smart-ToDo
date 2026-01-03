@@ -178,10 +178,10 @@ Content-Type: application/json
     "_id": "507f1f77bcf86cd799439012",
     "title": "Complete project",
     "description": "Finish the Smart ToDo API project",
-    "completed": false,
+    "completed": true,
     "user": "507f1f77bcf86cd799439011",
-    "createdAt": "2024-01-15T10:30:00.000Z",
-    "updatedAt": "2024-01-15T10:30:00.000Z"
+    "createdAt": "2026-01-03T10:42:35.003Z",
+    "updatedAt": "2026-01-03T10:42:35.003Z"
   }
 }
 ```
@@ -202,10 +202,10 @@ Authorization: Bearer <token>
       "_id": "507f1f77bcf86cd799439012",
       "title": "Complete project",
       "description": "Finish the Smart ToDo API project",
-      "completed": false,
+      "completed": true,
       "user": "507f1f77bcf86cd799439011",
-      "createdAt": "2024-01-15T10:30:00.000Z",
-      "updatedAt": "2024-01-15T10:30:00.000Z"
+      "createdAt": "2026-01-03T10:45:55.045Z",
+      "updatedAt": "2026-01-03T10:45:55.045Z"
     }
   ]
 }
@@ -233,8 +233,8 @@ Content-Type: application/json
     "description": "Finish the Smart ToDo API project",
     "completed": true,
     "user": "507f1f77bcf86cd799439011",
-    "createdAt": "2024-01-15T10:30:00.000Z",
-    "updatedAt": "2024-01-15T11:00:00.000Z"
+    "createdAt": "2026-01-03T10:49:23.340Z",
+    "updatedAt": "2026-01-03T10:49:23.340Z"
   }
 }
 ```
@@ -253,7 +253,7 @@ Authorization: Bearer <token>
     "_id": "507f1f77bcf86cd799439012",
     "title": "Complete project",
     "description": "Finish the Smart ToDo API project",
-    "completed": false,
+    "completed": true,
     "user": "507f1f77bcf86cd799439011"
   }
 }
@@ -269,7 +269,7 @@ GET /health
 {
   "status": "OK",
   "message": "Smart ToDo API is running",
-  "timestamp": "2024-01-15T10:30:00.000Z"
+  "timestamp": "2026-01-03T10:55:27.547Z"
 }
 ```
 
@@ -350,6 +350,7 @@ ISC
 ## Author
 
 Smart ToDo API Team
+
 
 
 
